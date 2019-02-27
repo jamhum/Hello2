@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var HelloLbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        HelloLbl.text = "Hello, world!"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
